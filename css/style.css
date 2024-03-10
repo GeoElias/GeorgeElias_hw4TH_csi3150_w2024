@@ -51,23 +51,6 @@ button:hover {
   transition: all 0.5s ease;
 }
 
-.card::before {
-  content: "Sale!";
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  top: 35%;
-  right: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: #8b4513; /* Saddle brown */
-  color: #fff;
-  font-weight: 800;
-  transition: all 0.5s ease;
-}
-
 .card__image {
   width: initial;
   height: 150px;
@@ -100,6 +83,4 @@ button:hover {
   border-top-left-radius: 25px;
 }
 
-.card:hover::before {
-  transform: scale(1.3) rotate(-30deg);
-}
+
