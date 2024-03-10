@@ -55,8 +55,7 @@ button:hover {
   width: initial;
   height: 150px;
   object-fit: cover;
-  background: rgb(128, 0, 128); /* Purple */
-  background: linear-gradient(163deg, #800080 18%, rgba(75, 0, 130, 1) 79%);
+  background: rgb(186, 247, 222); 
   transition: all 0.5s ease;
 }
 
