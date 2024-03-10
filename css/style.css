@@ -41,7 +41,7 @@ button:hover {
   width: 300px;
   height: 350px;
   background: #5f9ea0; /* Cadet blue */
-  color: #483d8b; /* Dark slate blue */
+  color: #00c977; 
   font-weight: 600;
   padding: 15px;
   display: flex;
@@ -72,14 +72,6 @@ button:hover {
   gap: 2px;
 }
 
-.card:hover {
-  border-top-left-radius: 35px;
-  box-shadow: 5px 5px 0px 0px #2f4f4f, 10px 10px 0px 0px #7e3d56,
-    15px 15px 0px 0px #2f4f4f, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-}
-
-.card:hover .card__image {
-  border-top-left-radius: 25px;
 }
 
 
